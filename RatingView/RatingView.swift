@@ -9,8 +9,10 @@ import SwiftUI
 
 struct RatingView: View {
     
-    @State var rating: CGFloat
-    @State var totalWidth: CGFloat = 0
+    let initialRating: CGFloat
+    @State private var rating: CGFloat = 0
+    @State private var totalWidth: CGFloat = 0
+    @ObservedObject var vm = RatingViewModel()
     
     var body: some View {
         ZStack {
@@ -26,7 +28,12 @@ struct RatingView: View {
                     rating = value.location.x
                 }
         )
-        .coordinateSpace(name: "MainV")
+        .onChange(of: rating, perform: { value in
+            vm.rating = (max(0, min(rating, totalWidth)) / totalWidth) * 5
+        })
+        .onAppear {
+            rating = (initialRating / 5) * totalWidth
+        }
     }
     
     private var overlayView: some View {
@@ -62,6 +69,6 @@ struct RatingView: View {
 
 struct RatingView_Previews: PreviewProvider {
     static var previews: some View {
-        RatingView(rating: 2)
+        RatingView(initialRating:  2)
     }
 }

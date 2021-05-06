@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2049B5BC2644366200518E48 /* RatingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2049B5BB2644366200518E48 /* RatingViewModel.swift */; };
 		2063CF782643BB7C00318D7D /* RatingViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2063CF772643BB7C00318D7D /* RatingViewApp.swift */; };
 		2063CF7A2643BB7C00318D7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2063CF792643BB7C00318D7D /* ContentView.swift */; };
 		2063CF7C2643BB7D00318D7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2063CF7B2643BB7D00318D7D /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2049B5BB2644366200518E48 /* RatingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingViewModel.swift; sourceTree = "<group>"; };
 		2063CF742643BB7C00318D7D /* RatingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2063CF772643BB7C00318D7D /* RatingViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewApp.swift; sourceTree = "<group>"; };
 		2063CF792643BB7C00318D7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,9 +99,10 @@
 		2063CF762643BB7C00318D7D /* RatingView */ = {
 			isa = PBXGroup;
 			children = (
-				2063CF772643BB7C00318D7D /* RatingViewApp.swift */,
+				2049B5BB2644366200518E48 /* RatingViewModel.swift */,
 				2063CFA52643BB9B00318D7D /* RatingView.swift */,
 				2063CF792643BB7C00318D7D /* ContentView.swift */,
+				2063CF772643BB7C00318D7D /* RatingViewApp.swift */,
 				2063CF7B2643BB7D00318D7D /* Assets.xcassets */,
 				2063CF802643BB7D00318D7D /* Info.plist */,
 				2063CF7D2643BB7D00318D7D /* Preview Content */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2063CFA62643BB9B00318D7D /* RatingView.swift in Sources */,
+				2049B5BC2644366200518E48 /* RatingViewModel.swift in Sources */,
 				2063CF7A2643BB7C00318D7D /* ContentView.swift in Sources */,
 				2063CF782643BB7C00318D7D /* RatingViewApp.swift in Sources */,
 			);
