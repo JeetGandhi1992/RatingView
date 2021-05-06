@@ -13,6 +13,7 @@
 		2063CF7F2643BB7D00318D7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2063CF7E2643BB7D00318D7D /* Preview Assets.xcassets */; };
 		2063CF8A2643BB7D00318D7D /* RatingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2063CF892643BB7D00318D7D /* RatingViewTests.swift */; };
 		2063CF952643BB7D00318D7D /* RatingViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2063CF942643BB7D00318D7D /* RatingViewUITests.swift */; };
+		2063CFA62643BB9B00318D7D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2063CFA52643BB9B00318D7D /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		2063CF902643BB7D00318D7D /* RatingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2063CF942643BB7D00318D7D /* RatingViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewUITests.swift; sourceTree = "<group>"; };
 		2063CF962643BB7D00318D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2063CFA52643BB9B00318D7D /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				2063CF772643BB7C00318D7D /* RatingViewApp.swift */,
+				2063CFA52643BB9B00318D7D /* RatingView.swift */,
 				2063CF792643BB7C00318D7D /* ContentView.swift */,
 				2063CF7B2643BB7D00318D7D /* Assets.xcassets */,
 				2063CF802643BB7D00318D7D /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2063CFA62643BB9B00318D7D /* RatingView.swift in Sources */,
 				2063CF7A2643BB7C00318D7D /* ContentView.swift in Sources */,
 				2063CF782643BB7C00318D7D /* RatingViewApp.swift in Sources */,
 			);
